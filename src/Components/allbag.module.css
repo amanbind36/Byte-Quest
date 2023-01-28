@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+flex-direction: row;
+align-items: flex-start;
+padding: 0px;
+gap: 56px;
+
+position: absolute;
+width: 1303px;
+height: 130px;
+left: 10px;
+top: 137px;
+
+}
+.container>div>img{
+    width: 90px;
+    height: 90px;
+}
+.container>div>p{
+    
+
+margin-left: 5px;
+height: 16px;
+left: 17px;
+top: 108px;
+
+font-family: 'Encode Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 13px;
+line-height: 16px;
+display: flex;
+align-items: center;
+letter-spacing: 0.1em;
+
+color: #E5DFD9;
+}

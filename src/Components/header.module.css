@@ -1,0 +1,90 @@
+.container{
+    display: grid;
+    position: absolute;
+    width: 1280px;
+    height: 105px;
+    left: 0px;
+    top: 0px;
+    
+   
+}
+.container>div{
+    height: 100%;
+    width: 100%;
+    
+}
+.upper{
+    display: flex;
+}
+.left{
+   
+    width: 50%;
+    height: 100%;
+    
+}
+.right{
+    
+    width: 50%;
+    height: 100%;
+    position: absolute;
+width: 161px;
+height: 24px;
+left: 1093px;
+top: 21px;
+
+}
+.left>div{
+   
+position: absolute;
+height: 28px;
+left: 3.91%;
+right: 80.7%;
+top: 19px;
+width: 400px;
+margin-top: -10px;
+
+font-family: 'Comme';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 28px;
+display: flex;
+align-items: center;
+letter-spacing: 0.55em;
+
+color: #E5DFD9;
+}
+.lower>p{
+  display: grid;
+ 
+
+
+}
+.lower{
+    
+    display: flex;
+   gap: 30px;
+   justify-content: center;
+   
+}
+.lower>div{
+    /* position: absolute; */
+/* width: 63px;
+height: 18px;
+left: 813px; */
+top: 69px;
+
+font-family: 'Encode Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+display: flex;
+align-items: center;
+letter-spacing: 0.1em;
+
+color: #E5DFD9;
+}
+
