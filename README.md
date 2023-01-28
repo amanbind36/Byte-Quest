@@ -1,3 +1,8 @@
+Besically,I clone a sample website name is TANN TRIM given by Byte_Quest;
+This website build using React.
+We Build website using axios API, Bootstrap;
+This is a single page website
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
