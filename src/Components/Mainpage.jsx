@@ -6,11 +6,10 @@ import Styles from "./imge.module.css"
 import Image from './Image';
 const Mainpage = () => {
     const [get, setGet]=useState([]);
-    const [loading,setLoading]=useState(false);
+    
     useEffect(()=>{
 
-        // const getPostsData = () => {
-            setLoading(true);
+       
             axios
             .get("https://api.tjori.com/api/v7filters/na/women-all-products/?f_page=1&format=json")
             .then(data =>{
@@ -32,10 +31,9 @@ const Mainpage = () => {
     <>
     <div className={Styles.g}>
      
-   {/* {<img src={get.plpimaage}></img>} */}
+  
    {get.map((item,index)=>{
-    // console.log("name",item.name,index)
-    // 
+    
     return(
         <Row  >
         <Col  key={index}>
@@ -43,7 +41,7 @@ const Mainpage = () => {
        </Col>
        </Row>
    
-    // <div ><img src={item.plpimaage} alt="" /></div>
+   
     
     )
    
